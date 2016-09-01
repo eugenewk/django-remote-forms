@@ -1,3 +1,13 @@
+# Fork notes
+
+Updated for Python 3 compatibility (tested with Python 3.5 and Django 1.10)
+
+- replaced SortedDict with OrderedDict
+- replaced force_unicode with force_text
+- updated Exception syntax to use 'Exception as e' instead of 'Exception, e'
+
+All credit to original authors. Original README below:
+
 # django-remote-forms
 
 A package that allows you to serialize django forms, including fields and widgets into Python
